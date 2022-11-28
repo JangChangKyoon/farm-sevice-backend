@@ -7,4 +7,10 @@ export class FarmService {
 
   @Field((type) => String)
   serviceName: string;
+
+  @Field((type) => String)
+  classification: string;
+
+  @Field((type) => String)
+  account: string;
 }
